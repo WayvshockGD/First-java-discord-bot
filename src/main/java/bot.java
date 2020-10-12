@@ -10,7 +10,7 @@ public class bot extends ListenerAdapter
 	{
 		try
 		{
-			JDA jda = JDABuilder.createDefault("Bot-Token-H")
+			JDA jda = JDABuilder.createDefault("Bot-Token-Here")
 					.addEventListeners(new bot())
 					.build();
 					jda.awaitReady();
