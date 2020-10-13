@@ -14,7 +14,7 @@ public class bot extends ListenerAdapter {
 	/*
 	 * prefix goes here. default = !
 	 */
-	public static String prefix = "|";
+	public static String prefix = "!";
 
     public static void main(String[] args) throws LoginException {
         String token = "Bot-Token";
